@@ -80,7 +80,7 @@ def convert_to_emoji(input_path, output_path, output_size):
 
         # Validate and parse the output size
         try:
-            width, height = map(int, output_size.split(','))
+            width, height = map(int, output_size().split(','))
         except ValueError:
             print(Fore.LIGHTRED_EX + "Invalid output size format. Please use the format: width, height")
             return
