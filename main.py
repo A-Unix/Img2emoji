@@ -108,4 +108,4 @@ if __name__ == "__main__":
     input_image_path = input_path()
     output_emoji_path = output_path()
 
-    convert_to_emoji(input_image_path, output_emoji_path)
+    convert_to_emoji(input_image_path, output_emoji_path, output_size)
