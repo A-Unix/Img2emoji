@@ -62,15 +62,15 @@ time.sleep(2)
 
 # Create a function to prompt the path of the image file which user wants to convert into an emoji
 def input_path():
-    return input("Enter the path of the image file e.g., /path/to/image.png: ")
+    return input(Fore.LIGHTBLUE_EX + "Enter the path of the image file e.g., /path/to/image.png: ")
 
 # Create a function to prompt the size of the emoji user wants
 def output_size():
-    return input("Enter the desired size of the emoji in format of (width, height) e.g., 32, 28: ")
+    return input(Fore.LIGHTGREEN_EX + "Enter the desired size of the emoji in format of (width, height) e.g., 32, 28: ")
 
 # Create a function to prompt the user to input the path to save the converted image
 def output_path():
-    return input("Enter the path of the output file along with the desired output file name e.g., /path/to/save/file.jpg: ")
+    return input(Fore.CYAN + "Enter the path of the output file along with the desired output file name e.g., /path/to/save/file.jpg: ")
 
 # Create function to convert the image into emoji
 def convert_to_emoji(input_path, output_path, output_size):
@@ -82,7 +82,7 @@ def convert_to_emoji(input_path, output_path, output_size):
         try:
             width, height = map(int, output_size.split(','))
         except ValueError:
-            print("Invalid output size format. Please use the format: width, height")
+            print(Fore.LIGHTRED_EX + "Invalid output size format. Please use the format: width, height")
             return
 
         # Create the output directory if it doesn't exist(Error handling)
@@ -96,12 +96,12 @@ def convert_to_emoji(input_path, output_path, output_size):
         # Save the processed image as an emoji file
         img_resized.save(output_path)
 
-        print(f"Emoji file saved at: {output_path}")
+        print(Fore.GREEN + f"Emoji file saved at: {output_path}")
 
     except FileNotFoundError:
-        print(f"Error: Image file not found at {input_path}")
+        print(Fore.LIGHTRED_EX + f"Error: Image file not found at {input_path}")
     except OSError as e:
-        print(f"Error: {e}")
+        print(Fore.RED + f"Error: {e}")
 
 # Run main function
 if __name__ == "__main__":
