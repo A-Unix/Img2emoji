@@ -5,9 +5,9 @@
 # Img2emoji
  A python script to convert any type of image into an emoji.
 
-# Created by <img src="https://img.shields.io/badge/Atul-8A2BE2">
+# Created by Atul
 
-# <img src="https://img.shields.io/badge/Usage-Disclaimer-yellow" alt="Disclaimer"/>
+# Usage Disclaimer
  Converting other people's funny images into 'emoticons' using this script may give rise to ethical and legal implications. It is imperative to uphold the privacy and terms of service of the relevant platforms. If you possess explicit permissions from the image owner, only then should you contemplate deploying this script, ensuring a more ethical and responsible utilization of the tool. I stress that the judicious and ethical application of this tool rests entirely on your own responsibility, and I bear no liability for any misuse.
 
 ## Installation instructions
