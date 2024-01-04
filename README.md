@@ -5,7 +5,7 @@
 # Img2emoji
  A python script to convert any type of image into an emoji.
 
-# Created by Atul
+## Created by Atul
 
 # Usage Disclaimer
  Converting other people's funny images into 'emoticons' using this script may give rise to ethical and legal implications. It is imperative to uphold the privacy and terms of service of the relevant platforms. If you possess explicit permissions from the image owner, only then should you contemplate deploying this script, ensuring a more ethical and responsible utilization of the tool. I stress that the judicious and ethical application of this tool rests entirely on your own responsibility, and I bear no liability for any misuse.
@@ -14,11 +14,11 @@
 
  ### Clone the repo
   ```bash
-  git clone https://github.com/Atuls-git/img2emoji.git
+  git clone https://github.com/Atuls-git/Img2emoji.git
   ```
  ### Move to cloned folder
   ```bash
-  cd img2emoji
+  cd Img2emoji
   ```
  ### Get permissions
   ```bash
