@@ -9,7 +9,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 echo -e "\nUpdating your system, please wait\n"
-sleep 1
+sleep 0.5
 
 # Update system
 apt update
@@ -18,10 +18,11 @@ apt update
 apt install python3-pip -y
 
 echo -e "\nInstalling required dependencies, please wait!\n"
-sleep 1
+sleep 0.5
 
 # Install requirements to run the script
 pip install Pillow emoji
+apt install figlet lolcat -y
 
 echo -e "\nDone, run the 'main.py' file now!\n"
 sleep 2
