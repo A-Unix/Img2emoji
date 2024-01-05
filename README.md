@@ -1,9 +1,9 @@
 <p>
-  <img src="https://img.shields.io/badge/Language_used-Python_&_Bash-magenta" alt="Language" />
+  <img src="https://img.shields.io/badge/Language-Python/Bash-magenta" alt="Language" />
 </p>
 
 # Img2emoji
- A python script to convert any type of image into an emoji.
+ A Python script to convert any type of image into an emoji.
 
 ## Created by Atul
 
